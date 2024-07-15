@@ -4,22 +4,9 @@ vim-openscad
 This is a quick hack at Vim syntax highlighting for the OpenSCAD 3D modeling
 language -- http://www.openscad.org/ 
 
-Note that at the moment it doesn't help detect errors such as mismatched blocks
-and parens. 
-
-TODOs include error management and quickfix/compiler support. 
-
-This script has been published for some time on vim.org at:
-    http://www.vim.org/scripts/script.php?script_id=3556
-
-Installation
-------------
-
-You can simply copy the ftdetect and syntax dirs to your .vim or vimfiles
-directory. The layout should also be fine for auto install if you use pathogen,
-vundle or some similar vim plugin system.
-
-The ftdetect file associates all .scad files with this plugin.
+This fork includes highlights for all of
+[BOSL2](https://github.com/BelfrySCAD/BOSL2) and is inspired by
+<https://github.com/mlaga97/vim-openscad-bosl2>
 
 License
 -------
@@ -32,3 +19,4 @@ Author/Maintainer
 -----------------
 
 Sirtaj Singh Kang <sirtaj@sirtaj.net>
+Dmitrii Galantsev <do not reach out to me. make an issue on github>
