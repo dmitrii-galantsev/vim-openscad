@@ -8,6 +8,8 @@ This fork includes highlights for all of
 [BOSL2](https://github.com/BelfrySCAD/BOSL2) and is inspired by
 <https://github.com/mlaga97/vim-openscad-bosl2>
 
+If you want to generate openscad.vim yourself - run `gen_openscad_bosl.fish` from inside BOSL2 directory.
+
 License
 -------
 
